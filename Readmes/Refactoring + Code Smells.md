@@ -9,14 +9,7 @@ El fin de este Readme.md es detallar las posibles practicas de Refactoring y cod
 
 
 
-## Informacion Importante
-
- - [GitHub Original](https://github.com/awlzac/wbt)
- - [Detalle del juego](https://github.com/awlzac/wbt/blob/master/README.md)
- - [IDE de visualización](https://www.jetbrains.com/es-es/idea/download/)
-
-
-## Code Smell
+## Code Smell 💩
  A continuación se detalla un listado de las clases a la cuales se les revisara el codigo con mal olor:
 
 - WBTempest (Clase Principal o main) 
@@ -145,7 +138,7 @@ Este metodo contiene muchas lineas de codigo, nolo hace entedible, se implementa
 ```
 
 ### Code Smell-LazyClass
-Estos son los metodos que tiene code smell-LazyClass, este code Smell dice: **Comprender y mantener las clases siempre cuesta tiempo y dinero. Entonces, si una clase no hace lo suficiente para llamar su atención, debe eliminarse.**.
+Estos son los metodos que tiene code smell-LongMethod, este code Smell dice: **Comprender y mantener las clases siempre cuesta tiempo y dinero. Entonces, si una clase no hace lo suficiente para llamar su atención, debe eliminarse.**.
 
 - **Clase Sound:**
 
