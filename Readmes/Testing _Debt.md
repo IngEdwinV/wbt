@@ -116,8 +116,8 @@ Analizando y teniendo en cuenta lo visto en la sesión de Testing Debt podemos d
 2. ⚡ Implementar metodos abstratos o interfaces para los metodos que son compartidos por las clases.
 3. ⚡ En paralelo al refactoring se puede aplicar TDD para ir creando los casos de unitTesting.
 4. ⚡ Crear o planificar la creación de las pruebas unitarias de los metodos o codigos que no se aplique el refactoring.
-5. Tener como proposito y meta tener un coverang de mas del 85%.
-6. Para manejar una nomclatura y orden se recomienda nombrar las pruebas unitarias así:
+5. ⚡ Tener como proposito y meta tener un coverang de mas del 85%.
+6. ⚡ Para manejar una nomclatura y orden se recomienda nombrar las pruebas unitarias así:
  test_(funcionalidad)_(escenario).
 
 
