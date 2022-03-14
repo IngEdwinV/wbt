@@ -22,13 +22,13 @@ Para dar inicio se de verificar o crear la siguiente estructura de carpetas en e
 
 En el caso que se tenga que crear el arbol de pruebas en el proyecto se debe realizar la configuración o asignación de la carpeta como ruta de pruebas del proyecto, para esto aplicar lo que se ve en la siguiente imagen:
 
-![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Logo_de_la_Escuela_Colombiana_de_Ingenier%C3%ADa.svg/2560px-Logo_de_la_Escuela_Colombiana_de_Ingenier%C3%ADa.svg.png)
+![test1](https://github.com/IngEdwinV/wbt/blob/codeSmellRefactoring/Imagenes/Test1.png)
 
 ### Ejecución de pruebas 🚀
 
 Para ejecutar las pruebas se debe seleccionar el directorio **test** dar clic derecho y seleccionar la opción **Run "test All"** y este iniciar una ejecución.
 
-![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Logo_de_la_Escuela_Colombiana_de_Ingenier%C3%ADa.svg/2560px-Logo_de_la_Escuela_Colombiana_de_Ingenier%C3%ADa.svg.png)
+![test](https://github.com/IngEdwinV/wbt/blob/codeSmellRefactoring/Imagenes/Test2.png)
 
 #
 ### Practicas de Testing 🧐
@@ -117,6 +117,8 @@ Analizando y teniendo en cuenta lo visto en la sesión de Testing Debt podemos d
 3. ⚡ En paralelo al refactoring se puede aplicar TDD para ir creando los casos de unitTesting.
 4. ⚡ Crear o planificar la creación de las pruebas unitarias de los metodos o codigos que no se aplique el refactoring.
 5. Tener como proposito y meta tener un coverang de mas del 85%.
+6. Para manejar una nomclatura y orden se recomienda nombrar las pruebas unitarias así:
+ test_(funcionalidad)_(escenario).
 
 
 
