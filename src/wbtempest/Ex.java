@@ -20,8 +20,12 @@ public class Ex {
     static int PODSIZE = 35;
     private static int EXHEIGHT_H = HEIGHT/2; // half the height of an Ex
     private static Random rnd = new Random(new java.util.Date().getTime());
-    
-    // possible states of an ex
+
+	public Ex() {
+
+	}
+
+	// possible states of an ex
 	private static enum State {STRAIGHT, JUMPRIGHT1, JUMPLEFT1, JUMPRIGHT2, JUMPLEFT2, LANDRIGHT1, LANDRIGHT2, LANDLEFT1, LANDLEFT2};
 
 	private static int JUMPINTERVAL = 30;  // ticks
