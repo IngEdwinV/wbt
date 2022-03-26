@@ -1,28 +1,19 @@
 package wbtempest;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.GraphicsEnvironment;
-import java.awt.Toolkit;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 import java.util.Random;
-
-import javax.swing.JPanel;
-import javax.swing.Timer;
-
-import java.util.*;
 
 /**
  * Main object, handles board, layout, update loop, and repainting.
@@ -35,7 +26,7 @@ import java.util.*;
 public class Board extends JPanel implements ActionListener {
 
 	private static final long serialVersionUID = -1467405293079888602L;
-    private static Random r = new Random(new java.util.Date().getTime());
+    private static Random r = new Random(new Date().getTime());
     static int B_WIDTH = 800;
     static int B_HEIGHT = 680;
     static int LEVEL_DEPTH = 600;
