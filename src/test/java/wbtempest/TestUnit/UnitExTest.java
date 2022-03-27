@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import wbtempest.Ex;
 
-public class TestUnitEx {
+public class UnitExTest {
 
     Ex ex = new Ex();
 
