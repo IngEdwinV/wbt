@@ -25,6 +25,7 @@ import java.util.Random;
  */
 public class Board extends JPanel implements ActionListener {
 
+
 	private static final long serialVersionUID = -1467405293079888602L;
     private static Random r = new Random(new Date().getTime());
     static int B_WIDTH = 800;
